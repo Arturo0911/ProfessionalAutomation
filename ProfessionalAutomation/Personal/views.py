@@ -4,6 +4,6 @@ from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 
-
+# Amalfi
 def Index(request):
     return JsonResponse({'name': 'Arturo Negreiros'})

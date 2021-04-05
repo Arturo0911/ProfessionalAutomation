@@ -76,8 +76,11 @@ WSGI_APPLICATION = 'ProfessionalAutomation.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'Amalfi',
+        'USER': 'root_arturo',
+        'PASSWORD':'LikeAStone',
+        'HOST':'localhost',
     }
 }
 
