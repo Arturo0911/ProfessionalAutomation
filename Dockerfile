@@ -1,3 +1,3 @@
 FROM python:3.8.5
-RUN pip instgall --upgrade pip
+RUN pip install --upgrade pip
 WORKDIR /code
